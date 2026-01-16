@@ -97,7 +97,7 @@ src/
 
 1. **Cloner le repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kferrandonFulbert/kapi-mvc-blank
    cd api-mvc-node
    ```
 
