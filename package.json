@@ -1,5 +1,5 @@
 {
-  "name": "kapi-mvc-prisma",
+  "name": "kapi-mvc-blank",
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
@@ -17,7 +17,7 @@
   ],
   "author": "@kferrandonFulbert",
   "license": "ISC",
-  "description": "",
+  "description": "Framework MVC pour démarrer rapidement un projet d'API avec Node.js et Prisma (avec exemples d'authentification, upload de fichiers, documentation Swagger, logs avec Pino, etc.)",
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.2.0",
     "@prisma/client": "^7.2.0",
