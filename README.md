@@ -114,10 +114,16 @@ src/
 
 4. **Configurer Prisma**
    ```bash
+   # Si vous rencontrez des problème avec prisma aller sur la doc [https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/mysql]
+   # Vous allez générer les fichiers models de prisma dans schema.prisma vérifier les information de connection a votre db dans votre fichier .env 
+   npx prisma init --datasource-provider mysql --output ../generated/prisma
+   # dans le ./prisma/schema.prisma utiliser le provider js si vous n etes pas en typescript provider = "prisma-client-js"
+  
+   npx prisma db pull
+
    npx prisma migrate dev --name init
    npx prisma generate
-   # if is their some trouble please read prisma doc
-   # you probable nead model in schema.prisma or complete tour DSN in tour .env 
+   
    ```
 
 5. **Vérifier l'installation**
