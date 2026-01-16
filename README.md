@@ -340,6 +340,51 @@ Réponse (201) :
 
 ---
 
+## RAD-api
+
+Pour générer les routes, controller, models vous pouvez utiliser notre rad 
+
+### Route
+Générez un fichier de route complet pour une table spécifique :
+
+```bash
+npx kapi generate route <tableName>
+```
+
+#### Exemple :
+
+```bash
+npx kapi generate route citations
+```
+
+### Controller
+Générez un fichier de controller complet pour une table spécifique :
+
+```bash
+npx kapi generate controller <tableName>
+```
+
+#### Exemple :
+
+```bash
+npx kapi generate controller citations
+```
+
+### Model
+Générez un fichier de model complet pour une table spécifique :
+
+```bash
+npx kapi generate model <tableName>
+```
+
+#### Exemple :
+
+```bash
+npx kapi generate model citations
+```
+
+---
+
 ## 🔄 Versioning
 
 ### Stratégie de versioning
